@@ -17,7 +17,7 @@ QuestPDF.Settings.License = LicenseType.Community;
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<HocbasvContext>(options =>
-       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  //ConnectionDB hha
+       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  //ConnectionDB 
 
 
 
